@@ -79,7 +79,7 @@ export default function PortfolioDetail({ data }) {
                         <div className="flex flex-row ml-1">
                           {
                                             item.responsibility.map((responsibility) => (
-                                              <div className="mr-4 px-6 py-3 text-theme-purple border border-theme-purple rounded-full shadow-lg">
+                                              <div className="mr-4 px-6 py-3 text-theme-yellow border border-theme-yellow rounded-full shadow-lg">
                                                 {responsibility}
                                               </div>
                                             ))
@@ -93,7 +93,7 @@ export default function PortfolioDetail({ data }) {
                         <br />
                         Original project :
                         {' '}
-                        <Button type="link" href={item.credit} target="_blank" className="text-theme-purple" isExternal>{item.credit}</Button>
+                        <Button type="link" href={item.credit} target="_blank" className="text-theme-yellow" isExternal>{item.credit}</Button>
                       </p>
                     </Fade>
                   </div>

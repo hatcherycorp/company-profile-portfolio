@@ -1,16 +1,16 @@
 {
     "service" : [
         {
-            "title": "Web Development",
+            "title": "UI/UX Design",
+            "imageUrl": "assets/images/Design.png"
+        },
+        {
+            "title": "Copywriting",
             "imageUrl": "assets/images/Web.png"
         },
         {
-            "title": "Mobile Development",
+            "title": "Graphic Design",
             "imageUrl": "assets/images/Mobile.png"
-        },
-        {
-            "title": "UI/UX Design",
-            "imageUrl": "assets/images/Design.png"
         }
     ],
     "portfolio" : [

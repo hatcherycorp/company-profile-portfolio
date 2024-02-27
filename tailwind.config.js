@@ -28,7 +28,9 @@ module.exports = {
         'light-theme-purple': '#E3D3FD',
         'theme-purple': '#6610f2',
         'dark-theme-purple': '#520dc2',
-        'theme-blue': '#152C5B'
+        'theme-blue': '#152C5B',
+        'theme-yellow': '#a78bfa',
+        'theme-orange': '#ff7849'
       },
       margin: {
         '-112' : '-28rem',

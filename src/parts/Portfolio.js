@@ -27,7 +27,7 @@ export default function Portfolio({ data }) {
                             <div className="relative">
                               <img src={item.imageUrl} alt="Portfolio" className="rounded-t-2xl z-0" />
                               <div className="absolute flex w-full h-full top-0 opacity-0 bg-black justify-center rounded-t-2xl rounded-b img-hover">
-                                <button className="focus:outline-none">
+                                <button className="focus:outline-none" aria-label="Button">
                                   <svg className="w-20 h-20 text-gray-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -47,7 +47,7 @@ export default function Portfolio({ data }) {
       </div>
 
       <Fade bottom>
-        <Button href="/project" type="link" className="flex flex-grow-0 w-36 h-12 sm:w-40 sm:h-14 lg:w-44 lg:h-16 xl:w-36 xl:h-12 text-theme-purple px-5 border border-theme-purple items-center mt-14 rounded-full justify-center transition duration-300 hover:bg-theme-purple hover:text-white">
+        <Button href="/project" type="link" className="flex flex-grow-0 w-36 h-12 sm:w-40 sm:h-14 lg:w-44 lg:h-16 xl:w-36 xl:h-12 text-theme-yellow px-5 border border-theme-yellow items-center mt-14 rounded-full justify-center transition duration-300 hover:bg-theme-yellow hover:text-white">
           <p className="font-normal py-3 lg:text-lg xl:text-base">
             See More
           </p>
