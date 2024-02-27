@@ -22,7 +22,7 @@ export default function Portfolio({ data }) {
         {
                     data.map((item, index) => (
                       <Fade bottom delay={500 * index}>
-                        <Button type="link" href={`/`}>
+                        <Button type="link" href="/">
                           <div className="group rounded-2xl shadow-xl w-auto w-11/12 m-3 transform transition duration-500 hover:scale-110 portofolio-card">
                             <div className="relative">
                               <img src={item.imageUrl} alt="Portfolio" className="rounded-t-2xl z-0" />
